@@ -5,6 +5,9 @@ on:
     - cron: '0 6 */3 * *'   # Every 72 hours at 06:00 UTC
   workflow_dispatch:          # Also allows manual trigger from GitHub
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
