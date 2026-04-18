@@ -14,16 +14,13 @@
     --muted: #6b6860;
     --accent: #1a5c38;
     --accent-light: #e8f3ed;
-    --accent-text: #0d3d24;
     --danger: #c0392b;
-    --danger-light: #fdf0ef;
     --sale: #b5580a;
     --sale-light: #fef3e7;
     --goisco-color: #1a5c38;
     --font: 'DM Sans', sans-serif;
     --mono: 'DM Mono', monospace;
     --radius: 10px;
-    --shadow: 0 1px 3px rgba(0,0,0,0.07);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -223,6 +220,18 @@
     color: var(--muted); font-size: 14px;
   }
 
+  .store-heading {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-top: 6px;
+  }
+  .store-heading-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .store-heading-name { font-size: 14px; font-weight: 600; color: var(--text); }
+  .store-heading-count { font-size: 12px; color: var(--muted); margin-left: auto; font-family: var(--mono); }
+
   /* SIDEBAR / CART */
   .sidebar {
     position: sticky; top: 60px;
@@ -417,14 +426,22 @@ const CAT_EMOJI = {
   'Overig':          '📦',
 };
 
+// ── Store config ──────────────────────────────────────
+const STORES = {
+  goisco:  { name: 'Goisco',        color: '#1a5c38' },
+  mangusa: { name: 'Mangusa',       color: '#2563a8' },
+  centrum: { name: 'Centrum',       color: '#854F0B' },
+  vdt:     { name: 'Van den Tweel', color: '#7F77DD' },
+};
+
 // ── Init ──────────────────────────────────────────────
 function init() {
-  if (typeof GOISCO_PRODUCTS === 'undefined') {
+  if (typeof PRODUCTS === 'undefined') {
     document.getElementById('product-list').innerHTML =
       '<div class="empty-state">⚠️ Geen data gevonden.<br>Run eerst: <code>python prepare_data.py</code></div>';
     return;
   }
-  allProducts = GOISCO_PRODUCTS;
+  allProducts = PRODUCTS;
   buildFilters();
   updateStats();
   renderProducts();
@@ -459,7 +476,8 @@ function updateStats() {
   document.getElementById('stat-cats').textContent = cats;
   document.getElementById('stat-sale').textContent = onSale;
   document.getElementById('stat-avg').textContent = 'ANG ' + avg.toFixed(2);
-  document.getElementById('header-badge').textContent = 'Goisco · ' + allProducts.length.toLocaleString() + ' producten';
+  const stores = new Set(allProducts.map(p => p.store)).size;
+  document.getElementById('header-badge').textContent = allProducts.length.toLocaleString() + ' producten · ' + stores + ' supermarkten';
 }
 
 // ── Render products ───────────────────────────────────
@@ -491,20 +509,96 @@ function renderProducts() {
     return;
   }
 
-  // Render max 100 at a time for performance
-  const visible = list.slice(0, 100);
-  el.innerHTML = visible.map(p => productCard(p)).join('');
+  // Separate comparisons from single-store products
+  const comparisons = list.filter(p => p.type === 'comparison');
+  const singles     = list.filter(p => p.type !== 'comparison');
 
-  if (list.length > 100) {
-    el.innerHTML += `<div class="empty-state" style="padding:1rem">Verfijn je zoekopdracht om meer te zien — ${list.length - 100} meer producten beschikbaar</div>`;
+  let html = '';
+
+  // ── Comparison cards first ──
+  if (comparisons.length) {
+    html += `<div class="store-heading" style="border-color:#e2a800;background:#fefbe8">
+      <span class="store-heading-dot" style="background:#e2a800"></span>
+      <span class="store-heading-name" style="color:#92640a">Prijsvergelijking</span>
+      <span class="store-heading-count">${comparisons.length} producten in beide winkels</span>
+    </div>`;
+    html += comparisons.slice(0, 100).map(p => comparisonCard(p)).join('');
+    if (comparisons.length > 100) {
+      html += `<div class="empty-state" style="padding:0.75rem;font-size:12px">Verfijn je zoekopdracht — nog ${comparisons.length - 100} meer vergelijkingen</div>`;
+    }
   }
+
+  // ── Single-store products grouped by store ──
+  const byStore = {};
+  singles.forEach(p => {
+    const s = p.store || 'goisco';
+    if (!byStore[s]) byStore[s] = [];
+    byStore[s].push(p);
+  });
+
+  const storeOrder = ['goisco', 'mangusa', 'centrum', 'vdt'];
+  storeOrder.forEach(storeId => {
+    const products = byStore[storeId];
+    if (!products || !products.length) return;
+    const store = STORES[storeId] || { name: storeId, color: '#888' };
+    const visible = products.slice(0, 100);
+    html += `<div class="store-heading">
+      <span class="store-heading-dot" style="background:${store.color}"></span>
+      <span class="store-heading-name">${store.name}</span>
+      <span class="store-heading-count">${products.length.toLocaleString()} producten</span>
+    </div>`;
+    html += visible.map(p => productCard(p)).join('');
+    if (products.length > 100) {
+      html += `<div class="empty-state" style="padding:0.75rem;font-size:12px">Verfijn je zoekopdracht — nog ${products.length - 100} meer bij ${store.name}</div>`;
+    }
+  });
+
+  el.innerHTML = html;
+}
+
+function comparisonCard(p) {
+  const inCart  = !!cart[p.id];
+  const emoji   = CAT_EMOJI[p.cat] || '📦';
+  const imgEl   = p.img
+    ? `<img class="product-img" src="${p.img}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'product-img-placeholder\\'>${emoji}</div>'">`
+    : `<div class="product-img-placeholder">${emoji}</div>`;
+
+  const gPrice  = p.goisco_price.toFixed(2);
+  const mPrice  = p.mangusa_price.toFixed(2);
+  const saving  = p.saving > 0 ? `<span style="font-size:11px;color:var(--color-text-success);margin-left:6px">ANG ${p.saving.toFixed(2)} goedkoper</span>` : '';
+
+  const gStyle  = p.cheaper === 'goisco'  ? 'background:var(--color-background-success);border-color:var(--color-border-success)' : '';
+  const mStyle  = p.cheaper === 'mangusa' ? 'background:var(--color-background-success);border-color:var(--color-border-success)' : '';
+
+  return `<div class="product-card ${inCart ? 'in-cart' : ''}" id="card-${p.id}" style="flex-wrap:wrap">
+    ${imgEl}
+    <div class="product-info">
+      <div class="product-name">${p.name}</div>
+      <div class="product-meta"><span>${p.cat}</span></div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:4px;width:100%;padding-left:60px">
+      <div style="padding:5px 10px;border-radius:8px;border:1px solid var(--color-border-tertiary);font-size:13px;${gStyle}">
+        <span style="color:#1a5c38;font-size:11px;font-weight:500">Goisco</span>
+        <span style="font-family:var(--mono);margin-left:6px">ANG ${gPrice}</span>
+      </div>
+      <div style="padding:5px 10px;border-radius:8px;border:1px solid var(--color-border-tertiary);font-size:13px;${mStyle}">
+        <span style="color:#2563a8;font-size:11px;font-weight:500">Mangusa</span>
+        <span style="font-family:var(--mono);margin-left:6px">ANG ${mPrice}</span>
+      </div>
+      ${saving}
+    </div>
+    <button class="add-btn ${inCart ? 'added' : ''}" onclick="toggleCartComparison('${p.id}')" title="${inCart ? 'Verwijder' : 'Voeg toe (goedkoopste)'}">
+      ${inCart ? '✓' : '+'}
+    </button>
+  </div>`;
 }
 
 function productCard(p) {
   const inCart = !!cart[p.id];
+  const emoji = CAT_EMOJI[p.cat] || '📦';
   const imgEl = p.img
-    ? `<img class="product-img" src="${p.img}" alt="" loading="lazy" onerror="this.style.display='none'">`
-    : `<div class="product-img-placeholder">${CAT_EMOJI[p.cat] || '📦'}</div>`;
+    ? `<img class="product-img" src="${p.img}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'product-img-placeholder\\'>${emoji}</div>'">`
+    : `<div class="product-img-placeholder">${emoji}</div>`;
 
   const saleTag = p.sale ? `<span class="sale-badge">AANBIEDING</span>` : '';
   const comparePrice = p.compare && p.compare > p.price
@@ -523,7 +617,7 @@ function productCard(p) {
     <div class="product-price">
       <div class="price-main">ANG ${p.price.toFixed(2)}</div>
       ${comparePrice}
-      <div class="price-store">Goisco</div>
+      <div class="price-price-store" style="font-size:10px;margin-top:1px;color:${(STORES[p.store||'goisco']||{color:'#1a5c38'}).color}">${(STORES[p.store||'goisco']||{name:'Goisco'}).name}</div>
     </div>
     <button class="add-btn ${inCart ? 'added' : ''}" onclick="toggleCart(${p.id})" title="${inCart ? 'Verwijder' : 'Voeg toe'}">
       ${inCart ? '✓' : '+'}
@@ -532,6 +626,25 @@ function productCard(p) {
 }
 
 // ── Cart ──────────────────────────────────────────────
+function toggleCartComparison(id) {
+  const p = allProducts.find(x => x.id === id);
+  if (!p) return;
+  if (cart[id]) {
+    delete cart[id];
+  } else {
+    const store   = p.cheaper === 'mangusa' ? 'mangusa' : 'goisco';
+    const price   = p.cheaper === 'mangusa' ? p.mangusa_price : p.goisco_price;
+    cart[id] = { product: p, qty: 1, store, price };
+  }
+  const card = document.getElementById('card-' + id);
+  if (card) {
+    const btn = card.querySelector('.add-btn');
+    if (cart[id]) { card.classList.add('in-cart'); btn.classList.add('added'); btn.textContent = '✓'; }
+    else { card.classList.remove('in-cart'); btn.classList.remove('added'); btn.textContent = '+'; }
+  }
+  renderCart();
+}
+
 function toggleCart(id) {
   const p = allProducts.find(x => x.id === id);
   if (!p) return;
@@ -583,27 +696,30 @@ function renderCart() {
   }
   emptyEl.style.display = 'none';
 
-  itemsEl.innerHTML = items.map(({product:p, qty}) => `
-    <div class="cart-item">
-      <div class="cart-item-name" title="${p.name}">${p.name}</div>
+  itemsEl.innerHTML = items.map(({product:p, qty, store, price}) => {
+    const itemPrice = price || p.price || 0;
+    const storeName = store ? (STORES[store]||{name:store}).name : (STORES[p.store||'goisco']||{name:'Goisco'}).name;
+    const storeColor = store ? (STORES[store]||{color:'#888'}).color : (STORES[p.store||'goisco']||{color:'#888'}).color;
+    return `<div class="cart-item">
+      <div class="cart-item-name" title="${p.name}">${p.name}<br><span style="font-size:10px;color:${storeColor}">${storeName}</span></div>
       <div class="cart-item-qty">
-        <button class="qty-btn" onclick="changeQty(${p.id}, -1)">−</button>
+        <button class="qty-btn" onclick="changeQty('${p.id}', -1)">−</button>
         <span class="qty-num">${qty}</span>
-        <button class="qty-btn" onclick="changeQty(${p.id}, 1)">+</button>
+        <button class="qty-btn" onclick="changeQty('${p.id}', 1)">+</button>
       </div>
-      <div class="cart-item-price">ANG ${(p.price * qty).toFixed(2)}</div>
-      <button class="qty-btn" onclick="toggleCart(${p.id})" title="Verwijder" style="color:var(--muted)">×</button>
-    </div>`).join('');
+      <div class="cart-item-price">ANG ${(itemPrice * qty).toFixed(2)}</div>
+      <button class="qty-btn" onclick="toggleCart('${p.id}')" title="Verwijder" style="color:var(--muted)">×</button>
+    </div>`;
+  }).join('');
 
-  const subtotal = items.reduce((s,{product:p,qty}) => s + p.price * qty, 0);
+  const subtotal = items.reduce((s,{product:p, qty, price}) => s + (price || p.price || 0) * qty, 0);
   const savedTotal = items.reduce((s,{product:p,qty}) => {
     return s + (p.compare && p.compare > p.price ? (p.compare - p.price) * qty : 0);
   }, 0);
 
   totalsEl.innerHTML = `<div class="totals-block">
-    <div class="totals-row"><span>Subtotaal (${totalQty} items)</span><span class="totals-val">ANG ${subtotal.toFixed(2)}</span></div>
     ${savedTotal > 0.009 ? `<div class="totals-row saved"><span>Bespaard op aanbiedingen</span><span class="totals-val">− ANG ${savedTotal.toFixed(2)}</span></div>` : ''}
-    <div class="totals-row grand"><span>Totaal</span><span class="totals-val">ANG ${subtotal.toFixed(2)}</span></div>
+    <div class="totals-row grand"><span>Totaal (${totalQty} item${totalQty !== 1 ? 's' : ''})</span><span class="totals-val">ANG ${subtotal.toFixed(2)}</span></div>
     <button class="clear-btn" onclick="clearCart()">Lijst wissen</button>
   </div>`;
 }
