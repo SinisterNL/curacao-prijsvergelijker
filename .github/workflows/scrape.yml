@@ -1,0 +1,36 @@
+name: Scrape Goisco Prices
+
+on:
+  schedule:
+    - cron: '0 6 */3 * *'   # Every 72 hours at 06:00 UTC
+  workflow_dispatch:          # Also allows manual trigger from GitHub
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Goisco scraper
+        run: python goisco_scraper.py
+
+      - name: Run data processor
+        run: python prepare_data.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js goisco_products.json
+          git diff --staged --quiet || git commit -m "Auto-update: Goisco prices $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
