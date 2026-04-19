@@ -2,20 +2,31 @@ name: Scrape & Update Prices
 
 on:
   schedule:
-    - cron: '0 6 */3 * *'   # Every 72 hours at 06:00 UTC
-  workflow_dispatch:          # Manual trigger from GitHub
+    - cron: '0 6 */3 * *'
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: write
-  issues: write               # Needed to create issue when Centrum comes online
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scrape-and-deploy
+  cancel-in-progress: false
 
 jobs:
   scrape:
+    name: Scrape stores
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -53,7 +64,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: '🛒 Centrum Supermarket is back online!',
-              body: 'The Centrum Supermarket Shopify store responded successfully. Time to build the Centrum scraper!\n\nRun `centrum_scraper.py` to get started.',
+              body: 'Centrum Shopify store is back. Time to build the scraper!',
               labels: ['enhancement']
             })
 
@@ -61,6 +72,42 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.js goisco_products.json mangusa_products.json matches.json centrum_status.json
-          git diff --staged --quiet || git commit -m "Auto-update: prices scraped $(date +'%Y-%m-%d %H:%M UTC')"
-          git push --force-with-lease origin master
+          git add data.js goisco_products.json mangusa_products.json matches.json centrum_status.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit."
+            exit 0
+          fi
+          git commit -m "Auto-update: prices scraped $(date +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3 4 5; do
+            echo "Push attempt $i..."
+            git fetch origin master
+            git rebase origin/master
+            git push origin master && echo "Push succeeded." && exit 0
+            sleep 10
+          done
+          exit 1
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site to Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
