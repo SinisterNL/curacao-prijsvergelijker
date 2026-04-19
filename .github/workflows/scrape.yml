@@ -81,7 +81,7 @@ jobs:
           for i in 1 2 3 4 5; do
             echo "Push attempt $i..."
             git fetch origin master
-            git rebase origin/master
+            git rebase -X theirs origin/master
             git push origin master && echo "Push succeeded." && exit 0
             sleep 10
           done
