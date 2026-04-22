@@ -1,16 +1,5 @@
 [
   {
-    "goisco_id": 9033586147571,
-    "goisco_name": "Ocean Spray Jellied Cranberry Sauce, 14 oz",
-    "goisco_price": 6.73,
-    "mangusa_id": 54880,
-    "mangusa_name": "Ocean spray Jellied cranberry sauce 14 oz",
-    "mangusa_price": 6.95,
-    "score": 1.0,
-    "cheaper": "goisco",
-    "saving": 0.22
-  },
-  {
     "goisco_id": 4458896261235,
     "goisco_name": "Nika White Rice, 20 lbs",
     "goisco_price": 21.97,
@@ -66,17 +55,6 @@
     "saving": 0.09
   },
   {
-    "goisco_id": 6647946674354,
-    "goisco_name": "Badia Chocolate Sprinkles , 1.5 lbs",
-    "goisco_price": 24.2,
-    "mangusa_id": 39623,
-    "mangusa_name": "Badia Chocolate sprinkles 1.5lb",
-    "mangusa_price": 30.9,
-    "score": 0.984,
-    "cheaper": "goisco",
-    "saving": 6.7
-  },
-  {
     "goisco_id": 7120068903090,
     "goisco_name": "Tip Top Azijn Essence , 250 ml",
     "goisco_price": 5.57,
@@ -126,10 +104,10 @@
     "goisco_price": 1.46,
     "mangusa_id": 44470,
     "mangusa_name": "Bretaña Soda water 300ml",
-    "mangusa_price": 1.45,
+    "mangusa_price": 1.6,
     "score": 0.98,
-    "cheaper": "mangusa",
-    "saving": 0.01
+    "cheaper": "goisco",
+    "saving": 0.14
   },
   {
     "goisco_id": 7572515029235,
@@ -220,17 +198,6 @@
     "saving": 0.5
   },
   {
-    "goisco_id": 7772135915763,
-    "goisco_name": "Badia Cinnamon Sticks , 8 oz",
-    "goisco_price": 25.25,
-    "mangusa_id": 53064,
-    "mangusa_name": "Badia Cinnamon sticks 3 oz",
-    "mangusa_price": 20.0,
-    "score": 0.962,
-    "cheaper": "mangusa",
-    "saving": 5.25
-  },
-  {
     "goisco_id": 4459747737715,
     "goisco_name": "Nika Parboiled Rice, 20 lbs",
     "goisco_price": 24.95,
@@ -280,10 +247,10 @@
     "goisco_price": 5.57,
     "mangusa_id": 58241,
     "mangusa_name": "Knox Gelatine unflavored 4x1oz",
-    "mangusa_price": 5.9,
+    "mangusa_price": 5.45,
     "score": 0.949,
-    "cheaper": "goisco",
-    "saving": 0.33
+    "cheaper": "mangusa",
+    "saving": 0.12
   },
   {
     "goisco_id": 9214655201523,
@@ -295,6 +262,17 @@
     "score": 0.943,
     "cheaper": "mangusa",
     "saving": 5.03
+  },
+  {
+    "goisco_id": 4159088459891,
+    "goisco_name": "Badia Ground Oregano, 12 oz",
+    "goisco_price": 15.78,
+    "mangusa_id": 33775,
+    "mangusa_name": "Badia Ground oregano 1.50oz",
+    "mangusa_price": 4.5,
+    "score": 0.943,
+    "cheaper": "mangusa",
+    "saving": 11.28
   },
   {
     "goisco_id": 3280558555236,
@@ -374,17 +352,6 @@
     "saving": 0.28
   },
   {
-    "goisco_id": 3280560881764,
-    "goisco_name": "Badia Rosemary, 8 oz",
-    "goisco_price": 11.57,
-    "mangusa_id": 52863,
-    "mangusa_name": "Badia Rosemary 1oz",
-    "mangusa_price": 4.5,
-    "score": 0.919,
-    "cheaper": "mangusa",
-    "saving": 7.07
-  },
-  {
     "goisco_id": 3280820502628,
     "goisco_name": "Lysol Disinfectant Spray, Crisp Linen Scent, 12.5 oz",
     "goisco_price": 18.94,
@@ -438,6 +405,17 @@
     "score": 0.909,
     "cheaper": "mangusa",
     "saving": 1.51
+  },
+  {
+    "goisco_id": 7100036219058,
+    "goisco_name": "Bazic Stapler With 500 Staples , 1 pc",
+    "goisco_price": 4.99,
+    "mangusa_id": 66078,
+    "mangusa_name": "Bazic Stapler with staples 1pc",
+    "mangusa_price": 6.75,
+    "score": 0.909,
+    "cheaper": "goisco",
+    "saving": 1.76
   },
   {
     "goisco_id": 3279855812708,
@@ -548,17 +526,6 @@
     "score": 0.884,
     "cheaper": "goisco",
     "saving": 16.38
-  },
-  {
-    "goisco_id": 4474169426035,
-    "goisco_name": "Toufayan Gluten Free Wraps, Original, 11 oz, 6 ct",
-    "goisco_price": 12.62,
-    "mangusa_id": 49542,
-    "mangusa_name": "Toufayan Gluten free wraps 6pc 11oz (1 piece)",
-    "mangusa_price": 10.95,
-    "score": 0.883,
-    "cheaper": "mangusa",
-    "saving": 1.67
   },
   {
     "goisco_id": 7678636359923,
@@ -748,6 +715,17 @@
     "saving": 3.74
   },
   {
+    "goisco_id": 7691345920243,
+    "goisco_name": "Planters Salted Cashew Halves & Pieces , 8 oz",
+    "goisco_price": 14.94,
+    "mangusa_id": 38033,
+    "mangusa_name": "Planters Cashew halves y piece 8oz",
+    "mangusa_price": 15.6,
+    "score": 0.853,
+    "cheaper": "goisco",
+    "saving": 0.66
+  },
+  {
     "goisco_id": 3280558588004,
     "goisco_name": "Badia Ground Ginger, 12 oz",
     "goisco_price": 18.94,
@@ -792,6 +770,17 @@
     "saving": 0.53
   },
   {
+    "goisco_id": 3280554164324,
+    "goisco_name": "Badia Fine Black Pepper, 16 oz",
+    "goisco_price": 33.67,
+    "mangusa_id": 53213,
+    "mangusa_name": "Badia Ground black pepper 16oz",
+    "mangusa_price": 39.75,
+    "score": 0.847,
+    "cheaper": "goisco",
+    "saving": 6.08
+  },
+  {
     "goisco_id": 7549204234483,
     "goisco_name": "Lysol Disinfectant Spray, Crisp Linen, 3-Pack, 3 x 19 oz",
     "goisco_price": 55.78,
@@ -812,6 +801,17 @@
     "score": 0.842,
     "cheaper": "goisco",
     "saving": 0.11
+  },
+  {
+    "goisco_id": 3280559865956,
+    "goisco_name": "Badia Granulated Onion, 20 oz",
+    "goisco_price": 19.99,
+    "mangusa_id": 52788,
+    "mangusa_name": "Badia Granulated onion 1.25lb",
+    "mangusa_price": 19.7,
+    "score": 0.842,
+    "cheaper": "mangusa",
+    "saving": 0.29
   },
   {
     "goisco_id": 7568647651571,
@@ -845,17 +845,6 @@
     "score": 0.839,
     "cheaper": "mangusa",
     "saving": 6.19
-  },
-  {
-    "goisco_id": 3280559210596,
-    "goisco_name": "Badia Sazon Tropical W/Annato and Coriander, 1.75 lb",
-    "goisco_price": 27.36,
-    "mangusa_id": 52905,
-    "mangusa_name": "Badia Sazon tropical w coriander and annato 1.75lb",
-    "mangusa_price": 30.1,
-    "score": 0.839,
-    "cheaper": "goisco",
-    "saving": 2.74
   },
   {
     "goisco_id": 7511788880115,
@@ -924,6 +913,17 @@
     "saving": 1.46
   },
   {
+    "goisco_id": 3280161636452,
+    "goisco_name": "Sensodyne Whitening Toothpaste, 4 oz",
+    "goisco_price": 14.73,
+    "mangusa_id": 32106,
+    "mangusa_name": "Sensodyne Toothpaste original 4 oz",
+    "mangusa_price": 12.75,
+    "score": 0.833,
+    "cheaper": "mangusa",
+    "saving": 1.98
+  },
+  {
     "goisco_id": 3280000647268,
     "goisco_name": "Goisco Dishwashing Liquid, Apple, 28 oz",
     "goisco_price": 3.57,
@@ -944,17 +944,6 @@
     "score": 0.831,
     "cheaper": "mangusa",
     "saving": 22.46
-  },
-  {
-    "goisco_id": 3281026056292,
-    "goisco_name": "Perrier Sparkling Mineral Water, 750 ml",
-    "goisco_price": 3.57,
-    "mangusa_id": 45562,
-    "mangusa_name": "Perrier Mineral water 750ml",
-    "mangusa_price": 4.35,
-    "score": 0.831,
-    "cheaper": "goisco",
-    "saving": 0.78
   },
   {
     "goisco_id": 3280322920548,
