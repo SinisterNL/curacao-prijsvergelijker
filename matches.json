@@ -55,6 +55,17 @@
     "saving": 0.09
   },
   {
+    "goisco_id": 3280034627684,
+    "goisco_name": "Tilex Daily Shower Cleaner, 32 oz",
+    "goisco_price": 13.67,
+    "mangusa_id": 68091,
+    "mangusa_name": "Tilex Daily shower cleaner 32oz",
+    "mangusa_price": 9.55,
+    "score": 0.984,
+    "cheaper": "mangusa",
+    "saving": 4.12
+  },
+  {
     "goisco_id": 7120068903090,
     "goisco_name": "Tip Top Azijn Essence , 250 ml",
     "goisco_price": 5.57,
@@ -374,6 +385,17 @@
     "saving": 1.85
   },
   {
+    "goisco_id": 9029220303091,
+    "goisco_name": "Badia Minced Onion, 17 OZ",
+    "goisco_price": 18.94,
+    "mangusa_id": 52675,
+    "mangusa_name": "Badia Minced onion 4oz",
+    "mangusa_price": 4.85,
+    "score": 0.913,
+    "cheaper": "mangusa",
+    "saving": 14.09
+  },
+  {
     "goisco_id": 3280557178980,
     "goisco_name": "Badia Ground Cumin, 16 oz",
     "goisco_price": 23.15,
@@ -427,6 +449,17 @@
     "score": 0.909,
     "cheaper": "goisco",
     "saving": 4.17
+  },
+  {
+    "goisco_id": 7862734422259,
+    "goisco_name": "Planters Mixed Nutes , 15 oz",
+    "goisco_price": 22.09,
+    "mangusa_id": 38030,
+    "mangusa_name": "Planters Mixed nuts 6.5oz",
+    "mangusa_price": 11.55,
+    "score": 0.902,
+    "cheaper": "mangusa",
+    "saving": 10.54
   },
   {
     "goisco_id": 3281560109156,
@@ -603,6 +636,17 @@
     "score": 0.867,
     "cheaper": "mangusa",
     "saving": 1.54
+  },
+  {
+    "goisco_id": 7779181592819,
+    "goisco_name": "La Yogurt Low Fat Vanilla Yogurt , 32 oz",
+    "goisco_price": 7.99,
+    "mangusa_id": 58934,
+    "mangusa_name": "La yogurt Low fat yogurt 32oz",
+    "mangusa_price": 7.5,
+    "score": 0.866,
+    "cheaper": "mangusa",
+    "saving": 0.49
   },
   {
     "goisco_id": 4417512865907,
@@ -944,6 +988,17 @@
     "score": 0.831,
     "cheaper": "mangusa",
     "saving": 22.46
+  },
+  {
+    "goisco_id": 3281026056292,
+    "goisco_name": "Perrier Sparkling Mineral Water, 750 ml",
+    "goisco_price": 3.57,
+    "mangusa_id": 45562,
+    "mangusa_name": "Perrier Mineral water 750ml",
+    "mangusa_price": 4.35,
+    "score": 0.831,
+    "cheaper": "goisco",
+    "saving": 0.78
   },
   {
     "goisco_id": 3280322920548,
