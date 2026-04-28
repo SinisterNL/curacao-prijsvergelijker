@@ -88,6 +88,17 @@
     "saving": 0.37
   },
   {
+    "goisco_id": 6645971222706,
+    "goisco_name": "Gwaltney Turkey Franks , 16 oz",
+    "goisco_price": 9.46,
+    "mangusa_id": 50623,
+    "mangusa_name": "Gwaltney Turkey franks 16oz",
+    "mangusa_price": 6.95,
+    "score": 0.982,
+    "cheaper": "mangusa",
+    "saving": 2.51
+  },
+  {
     "goisco_id": 9029220729075,
     "goisco_name": "Badia Cinnamon Sugar, 29 OZ",
     "goisco_price": 17.88,
@@ -209,6 +220,17 @@
     "saving": 0.5
   },
   {
+    "goisco_id": 7772135915763,
+    "goisco_name": "Badia Cinnamon Sticks , 8 oz",
+    "goisco_price": 25.25,
+    "mangusa_id": 53064,
+    "mangusa_name": "Badia Cinnamon sticks 3 oz",
+    "mangusa_price": 20.0,
+    "score": 0.962,
+    "cheaper": "mangusa",
+    "saving": 5.25
+  },
+  {
     "goisco_id": 4459747737715,
     "goisco_name": "Nika Parboiled Rice, 20 lbs",
     "goisco_price": 24.95,
@@ -286,17 +308,6 @@
     "saving": 11.28
   },
   {
-    "goisco_id": 3280558555236,
-    "goisco_name": "Badia Taco Seasoning, 21 oz",
-    "goisco_price": 18.94,
-    "mangusa_id": 52731,
-    "mangusa_name": "Badia Taco seasoning 2.75oz",
-    "mangusa_price": 4.5,
-    "score": 0.943,
-    "cheaper": "mangusa",
-    "saving": 14.44
-  },
-  {
     "goisco_id": 3280558030948,
     "goisco_name": "Badia Garlic Powder, 16 oz",
     "goisco_price": 17.88,
@@ -317,17 +328,6 @@
     "score": 0.941,
     "cheaper": "mangusa",
     "saving": 5.61
-  },
-  {
-    "goisco_id": 3280554295396,
-    "goisco_name": "Badia Whole Black Pepper, 16 oz",
-    "goisco_price": 33.67,
-    "mangusa_id": 52696,
-    "mangusa_name": "Badia Whole black pepper 2oz",
-    "mangusa_price": 6.9,
-    "score": 0.931,
-    "cheaper": "mangusa",
-    "saving": 26.77
   },
   {
     "goisco_id": 3279723233380,
@@ -561,6 +561,17 @@
     "saving": 16.38
   },
   {
+    "goisco_id": 4474169426035,
+    "goisco_name": "Toufayan Gluten Free Wraps, Original, 11 oz, 6 ct",
+    "goisco_price": 12.62,
+    "mangusa_id": 49542,
+    "mangusa_name": "Toufayan Gluten free wraps 6pc 11oz (1 piece)",
+    "mangusa_price": 10.95,
+    "score": 0.883,
+    "cheaper": "mangusa",
+    "saving": 1.67
+  },
+  {
     "goisco_id": 7678636359923,
     "goisco_name": "Old El Paso Hard & Soft Taco Dinner Kit, 11.4 oz",
     "goisco_price": 9.99,
@@ -647,17 +658,6 @@
     "score": 0.867,
     "cheaper": "mangusa",
     "saving": 1.54
-  },
-  {
-    "goisco_id": 7779181592819,
-    "goisco_name": "La Yogurt Low Fat Vanilla Yogurt , 32 oz",
-    "goisco_price": 7.99,
-    "mangusa_id": 58934,
-    "mangusa_name": "La yogurt Low fat yogurt 32oz",
-    "mangusa_price": 7.5,
-    "score": 0.866,
-    "cheaper": "mangusa",
-    "saving": 0.49
   },
   {
     "goisco_id": 3280285401188,
@@ -814,17 +814,6 @@
     "saving": 6.08
   },
   {
-    "goisco_id": 7549204234483,
-    "goisco_name": "Lysol Disinfectant Spray, Crisp Linen, 3-Pack, 3 x 19 oz",
-    "goisco_price": 55.78,
-    "mangusa_id": 60641,
-    "mangusa_name": "Lysol Disinfectante spray crisp linen 12.5oz",
-    "mangusa_price": 18.95,
-    "score": 0.842,
-    "cheaper": "mangusa",
-    "saving": 36.83
-  },
-  {
     "goisco_id": 6963081183410,
     "goisco_name": "Lovers Yolife Swiss Style - Plain Yogurt 32 oz",
     "goisco_price": 6.94,
@@ -935,6 +924,17 @@
     "saving": 42.07
   },
   {
+    "goisco_id": 3280743923812,
+    "goisco_name": "Abbott Ensure Plus Nutrition Shake, Milk Chocolate, 8 oz",
+    "goisco_price": 5.99,
+    "mangusa_id": 37348,
+    "mangusa_name": "Ensure Nutrition shake milk chocolate 11oz",
+    "mangusa_price": 7.45,
+    "score": 0.833,
+    "cheaper": "goisco",
+    "saving": 1.46
+  },
+  {
     "goisco_id": 3280161636452,
     "goisco_name": "Sensodyne Whitening Toothpaste, 4 oz",
     "goisco_price": 14.73,
@@ -966,17 +966,6 @@
     "score": 0.831,
     "cheaper": "mangusa",
     "saving": 22.46
-  },
-  {
-    "goisco_id": 3281026056292,
-    "goisco_name": "Perrier Sparkling Mineral Water, 750 ml",
-    "goisco_price": 3.57,
-    "mangusa_id": 45562,
-    "mangusa_name": "Perrier Mineral water 750ml",
-    "mangusa_price": 4.35,
-    "score": 0.831,
-    "cheaper": "goisco",
-    "saving": 0.78
   },
   {
     "goisco_id": 3280322920548,
@@ -1032,6 +1021,17 @@
     "score": 0.824,
     "cheaper": "mangusa",
     "saving": 0.46
+  },
+  {
+    "goisco_id": 3280256368740,
+    "goisco_name": "Toufayan Heart Baked Bagels, Cinnamon Raising, 20 oz",
+    "goisco_price": 6.94,
+    "mangusa_id": 49584,
+    "mangusa_name": "Toufayan Bagel cinnamon raisin 20oz",
+    "mangusa_price": 5.45,
+    "score": 0.824,
+    "cheaper": "mangusa",
+    "saving": 1.49
   },
   {
     "goisco_id": 6645971124402,
