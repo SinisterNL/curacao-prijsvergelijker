@@ -165,6 +165,17 @@
     "saving": 2.26
   },
   {
+    "goisco_id": 4409416843379,
+    "goisco_name": "Campbell's Chicken Noodle Soup, 10.75 oz",
+    "goisco_price": 3.99,
+    "mangusa_id": 33896,
+    "mangusa_name": "Campbells Chicken noodle soup 10.7 oz",
+    "mangusa_price": 4.5,
+    "score": 0.974,
+    "cheaper": "goisco",
+    "saving": 0.51
+  },
+  {
     "goisco_id": 4308738080883,
     "goisco_name": "Armor All Tire Foam Protectant, 20 oz",
     "goisco_price": 16.83,
@@ -352,6 +363,28 @@
     "saving": 8.98
   },
   {
+    "goisco_id": 4274204901491,
+    "goisco_name": "Promos BBQ Sauce Original, 18 oz",
+    "goisco_price": 5.67,
+    "mangusa_id": 55848,
+    "mangusa_name": "Promos Bbq sauce reg 18 oz",
+    "mangusa_price": 5.95,
+    "score": 0.917,
+    "cheaper": "goisco",
+    "saving": 0.28
+  },
+  {
+    "goisco_id": 3280555311204,
+    "goisco_name": "Badia Basil Leaves, 4 oz",
+    "goisco_price": 6.69,
+    "mangusa_id": 52588,
+    "mangusa_name": "Badia Basil leaves 0.75oz",
+    "mangusa_price": 5.95,
+    "score": 0.917,
+    "cheaper": "mangusa",
+    "saving": 0.74
+  },
+  {
     "goisco_id": 3280820502628,
     "goisco_name": "Lysol Disinfectant Spray, Crisp Linen Scent, 12.5 oz",
     "goisco_price": 18.94,
@@ -495,6 +528,17 @@
     "saving": 5.9
   },
   {
+    "goisco_id": 4274205491315,
+    "goisco_name": "Promos BBQ Sauce Hickory, 18 oz",
+    "goisco_price": 5.99,
+    "mangusa_id": 55860,
+    "mangusa_name": "Promos Bbq hickory 18 oz",
+    "mangusa_price": 3.95,
+    "score": 0.889,
+    "cheaper": "mangusa",
+    "saving": 2.04
+  },
+  {
     "goisco_id": 4458897899635,
     "goisco_name": "Nika White Rice, 4.4 lbs",
     "goisco_price": 5.59,
@@ -504,6 +548,17 @@
     "score": 0.884,
     "cheaper": "goisco",
     "saving": 16.38
+  },
+  {
+    "goisco_id": 4474169426035,
+    "goisco_name": "Toufayan Gluten Free Wraps, Original, 11 oz, 6 ct",
+    "goisco_price": 12.62,
+    "mangusa_id": 49542,
+    "mangusa_name": "Toufayan Gluten free wraps 6pc 11oz (1 piece)",
+    "mangusa_price": 10.95,
+    "score": 0.883,
+    "cheaper": "mangusa",
+    "saving": 1.67
   },
   {
     "goisco_id": 7678636359923,
@@ -548,6 +603,17 @@
     "score": 0.867,
     "cheaper": "mangusa",
     "saving": 0.97
+  },
+  {
+    "goisco_id": 4518316736627,
+    "goisco_name": "Carlo Rossi White Wine, 1.5L",
+    "goisco_price": 27.36,
+    "mangusa_id": 39056,
+    "mangusa_name": "Carlo rossi White zinfandel 1.5  ltr",
+    "mangusa_price": 32.25,
+    "score": 0.867,
+    "cheaper": "goisco",
+    "saving": 4.89
   },
   {
     "goisco_id": 3281401938020,
@@ -759,17 +825,6 @@
     "saving": 6.19
   },
   {
-    "goisco_id": 3280559210596,
-    "goisco_name": "Badia Sazon Tropical W/Annato and Coriander, 1.75 lb",
-    "goisco_price": 27.36,
-    "mangusa_id": 52905,
-    "mangusa_name": "Badia Sazon tropical w coriander and annato 1.75lb",
-    "mangusa_price": 30.1,
-    "score": 0.839,
-    "cheaper": "goisco",
-    "saving": 2.74
-  },
-  {
     "goisco_id": 7511788880115,
     "goisco_name": "Monster Ultra Energy Zero Sugar Drink , 16 oz",
     "goisco_price": 2.99,
@@ -779,6 +834,17 @@
     "score": 0.838,
     "cheaper": "goisco",
     "saving": 0.71
+  },
+  {
+    "goisco_id": 3280520740964,
+    "goisco_name": "Land O Lakes Unsalted Sweet Butter, 4 Half Sticks",
+    "goisco_price": 8.94,
+    "mangusa_id": 49356,
+    "mangusa_name": "Land o lakes Unsalted sweet butter 1lb",
+    "mangusa_price": 15.75,
+    "score": 0.837,
+    "cheaper": "goisco",
+    "saving": 6.81
   },
   {
     "goisco_id": 7627590205683,
@@ -823,17 +889,6 @@
     "score": 0.831,
     "cheaper": "mangusa",
     "saving": 22.46
-  },
-  {
-    "goisco_id": 3281026056292,
-    "goisco_name": "Perrier Sparkling Mineral Water, 750 ml",
-    "goisco_price": 3.57,
-    "mangusa_id": 45562,
-    "mangusa_name": "Perrier Mineral water 750ml",
-    "mangusa_price": 4.35,
-    "score": 0.831,
-    "cheaper": "goisco",
-    "saving": 0.78
   },
   {
     "goisco_id": 7554510356723,
