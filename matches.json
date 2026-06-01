@@ -33,17 +33,6 @@
     "saving": 0.0
   },
   {
-    "goisco_id": 3280561274980,
-    "goisco_name": "Badia Ground Turmeric, 16 oz",
-    "goisco_price": 14.73,
-    "mangusa_id": 52800,
-    "mangusa_name": "Badia Ground turmeric 16 oz",
-    "mangusa_price": 15.55,
-    "score": 1.0,
-    "cheaper": "goisco",
-    "saving": 0.82
-  },
-  {
     "goisco_id": 9409320354035,
     "goisco_name": "Heinz Distilled White Vinegar 32 oz",
     "goisco_price": 9.46,
@@ -121,17 +110,6 @@
     "saving": 0.14
   },
   {
-    "goisco_id": 3280557441124,
-    "goisco_name": "Badia Minced Garlic, 1.5 lbs",
-    "goisco_price": 27.36,
-    "mangusa_id": 53088,
-    "mangusa_name": "Badia Minced garlic 1.5lb",
-    "mangusa_price": 31.0,
-    "score": 0.98,
-    "cheaper": "goisco",
-    "saving": 3.64
-  },
-  {
     "goisco_id": 7572515029235,
     "goisco_name": "Kikkoman Soy Sauce , 10 oz",
     "goisco_price": 5.57,
@@ -152,17 +130,6 @@
     "score": 0.978,
     "cheaper": "mangusa",
     "saving": 0.82
-  },
-  {
-    "goisco_id": 3280980017252,
-    "goisco_name": "Frisian Flag Instant Whole Milk Powder, 1800 gr",
-    "goisco_price": 49.46,
-    "mangusa_id": 30718,
-    "mangusa_name": "Frisian flag Instant whole milk powder 1800gr",
-    "mangusa_price": 47.2,
-    "score": 0.978,
-    "cheaper": "mangusa",
-    "saving": 2.26
   },
   {
     "goisco_id": 4409416843379,
@@ -231,17 +198,6 @@
     "saving": 1.88
   },
   {
-    "goisco_id": 4459747737715,
-    "goisco_name": "Nika Parboiled Rice, 20 lbs",
-    "goisco_price": 24.95,
-    "mangusa_id": 44466,
-    "mangusa_name": "Nika Parboiled rice 10 lb",
-    "mangusa_price": 11.96,
-    "score": 0.96,
-    "cheaper": "mangusa",
-    "saving": 12.99
-  },
-  {
     "goisco_id": 7111656571058,
     "goisco_name": "Bazic Pencil & Crayon Sharpener, 4 pcs",
     "goisco_price": 3.99,
@@ -308,15 +264,15 @@
     "saving": 4.31
   },
   {
-    "goisco_id": 3280558030948,
-    "goisco_name": "Badia Garlic Powder, 16 oz",
-    "goisco_price": 17.88,
-    "mangusa_id": 52946,
-    "mangusa_name": "Badia Garlic powder 10.5oz",
-    "mangusa_price": 13.25,
-    "score": 0.941,
+    "goisco_id": 4159088623731,
+    "goisco_name": "Badia Rotisserie Chicken Seasoning, 22 oz",
+    "goisco_price": 29.46,
+    "mangusa_id": 52983,
+    "mangusa_name": "Badia Rotisserie chicken seasoning 10.5oz",
+    "mangusa_price": 10.0,
+    "score": 0.938,
     "cheaper": "mangusa",
-    "saving": 4.63
+    "saving": 19.46
   },
   {
     "goisco_id": 4395086970995,
@@ -352,17 +308,6 @@
     "saving": 0.28
   },
   {
-    "goisco_id": 3280560881764,
-    "goisco_name": "Badia Rosemary, 8 oz",
-    "goisco_price": 11.57,
-    "mangusa_id": 52863,
-    "mangusa_name": "Badia Rosemary 1oz",
-    "mangusa_price": 4.5,
-    "score": 0.919,
-    "cheaper": "mangusa",
-    "saving": 7.07
-  },
-  {
     "goisco_id": 4274204901491,
     "goisco_name": "Promos BBQ Sauce Original, 18 oz",
     "goisco_price": 5.67,
@@ -372,17 +317,6 @@
     "score": 0.917,
     "cheaper": "goisco",
     "saving": 0.28
-  },
-  {
-    "goisco_id": 3280820502628,
-    "goisco_name": "Lysol Disinfectant Spray, Crisp Linen Scent, 12.5 oz",
-    "goisco_price": 18.94,
-    "mangusa_id": 60641,
-    "mangusa_name": "Lysol Disinfectante spray crisp linen 12.5oz",
-    "mangusa_price": 18.95,
-    "score": 0.915,
-    "cheaper": "goisco",
-    "saving": 0.01
   },
   {
     "goisco_id": 7004883058866,
@@ -616,17 +550,6 @@
     "saving": 0.22
   },
   {
-    "goisco_id": 3281035821156,
-    "goisco_name": "India Crown Premium Basmati Rice, 1 kg",
-    "goisco_price": 7.88,
-    "mangusa_id": 42312,
-    "mangusa_name": "India crown Basmati rice classic 1kg",
-    "mangusa_price": 5.95,
-    "score": 0.862,
-    "cheaper": "mangusa",
-    "saving": 1.93
-  },
-  {
     "goisco_id": 8183020191987,
     "goisco_name": "Arm & Hammer Pure Bake Soda Shaker, 12 oz",
     "goisco_price": 6.62,
@@ -693,50 +616,6 @@
     "saving": 0.23
   },
   {
-    "goisco_id": 3280759980132,
-    "goisco_name": "Colgate Extra Clean Toothbrush Value Pack, 3 ct",
-    "goisco_price": 7.99,
-    "mangusa_id": 62594,
-    "mangusa_name": "Colgate Extra clean toothbrush soft 1pc",
-    "mangusa_price": 4.25,
-    "score": 0.857,
-    "cheaper": "mangusa",
-    "saving": 3.74
-  },
-  {
-    "goisco_id": 3280558588004,
-    "goisco_name": "Badia Ground Ginger, 12 oz",
-    "goisco_price": 18.94,
-    "mangusa_id": 33724,
-    "mangusa_name": "Badia Badia ground ginger 2oz",
-    "mangusa_price": 4.5,
-    "score": 0.852,
-    "cheaper": "mangusa",
-    "saving": 14.44
-  },
-  {
-    "goisco_id": 3280555147364,
-    "goisco_name": "Badia Bay Leaves, 20 oz",
-    "goisco_price": 12.62,
-    "mangusa_id": 52588,
-    "mangusa_name": "Badia Basil leaves 0.75oz",
-    "mangusa_price": 5.95,
-    "score": 0.851,
-    "cheaper": "mangusa",
-    "saving": 6.67
-  },
-  {
-    "goisco_id": 3280554164324,
-    "goisco_name": "Badia Fine Black Pepper, 16 oz",
-    "goisco_price": 33.67,
-    "mangusa_id": 53213,
-    "mangusa_name": "Badia Ground black pepper 16oz",
-    "mangusa_price": 39.75,
-    "score": 0.847,
-    "cheaper": "goisco",
-    "saving": 6.08
-  },
-  {
     "goisco_id": 7549204234483,
     "goisco_name": "Lysol Disinfectant Spray, Crisp Linen, 3-Pack, 3 x 19 oz",
     "goisco_price": 55.78,
@@ -768,17 +647,6 @@
     "score": 0.842,
     "cheaper": "goisco",
     "saving": 0.11
-  },
-  {
-    "goisco_id": 3280559865956,
-    "goisco_name": "Badia Granulated Onion, 20 oz",
-    "goisco_price": 19.99,
-    "mangusa_id": 52788,
-    "mangusa_name": "Badia Granulated onion 1.25lb",
-    "mangusa_price": 19.7,
-    "score": 0.842,
-    "cheaper": "mangusa",
-    "saving": 0.29
   },
   {
     "goisco_id": 4544483983475,
@@ -847,28 +715,6 @@
     "saving": 4.47
   },
   {
-    "goisco_id": 3280559210596,
-    "goisco_name": "Badia Sazon Tropical W/Annato and Coriander, 1.75 lb",
-    "goisco_price": 27.36,
-    "mangusa_id": 52905,
-    "mangusa_name": "Badia Sazon tropical w coriander and annato 1.75lb",
-    "mangusa_price": 30.1,
-    "score": 0.839,
-    "cheaper": "goisco",
-    "saving": 2.74
-  },
-  {
-    "goisco_id": 3280520740964,
-    "goisco_name": "Land O Lakes Unsalted Sweet Butter, 4 Half Sticks",
-    "goisco_price": 8.94,
-    "mangusa_id": 49356,
-    "mangusa_name": "Land o lakes Unsalted sweet butter 1lb",
-    "mangusa_price": 15.75,
-    "score": 0.837,
-    "cheaper": "goisco",
-    "saving": 6.81
-  },
-  {
     "goisco_id": 6647947100338,
     "goisco_name": "Colgate Zig Zag Toothbrush , 1 ct",
     "goisco_price": 2.41,
@@ -900,17 +746,6 @@
     "score": 0.835,
     "cheaper": "mangusa",
     "saving": 42.07
-  },
-  {
-    "goisco_id": 3281046077540,
-    "goisco_name": "Bazic Dry-Erase Whiteboard Markers, 3 ct",
-    "goisco_price": 3.99,
-    "mangusa_id": 60922,
-    "mangusa_name": "Bazic Dry erase whiteboard marker fine point 3pc",
-    "mangusa_price": 3.15,
-    "score": 0.828,
-    "cheaper": "mangusa",
-    "saving": 0.84
   },
   {
     "goisco_id": 7554510356723,
