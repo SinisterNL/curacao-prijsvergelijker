@@ -143,6 +143,17 @@
     "saving": 0.51
   },
   {
+    "goisco_id": 4308738080883,
+    "goisco_name": "Armor All Tire Foam Protectant, 20 oz",
+    "goisco_price": 17.36,
+    "mangusa_id": 59324,
+    "mangusa_name": "Armorall Tire foam protectant 20oz",
+    "mangusa_price": 20.7,
+    "score": 0.971,
+    "cheaper": "goisco",
+    "saving": 3.34
+  },
+  {
     "goisco_id": 7864654856435,
     "goisco_name": "Gato Negro Chardonnay Wine , 750 ml",
     "goisco_price": 12.62,
@@ -165,6 +176,17 @@
     "saving": 2.66
   },
   {
+    "goisco_id": 7772135915763,
+    "goisco_name": "Badia Cinnamon Sticks , 8 oz",
+    "goisco_price": 25.25,
+    "mangusa_id": 53064,
+    "mangusa_name": "Badia Cinnamon sticks 3 oz",
+    "mangusa_price": 20.0,
+    "score": 0.962,
+    "cheaper": "mangusa",
+    "saving": 5.25
+  },
+  {
     "goisco_id": 4159088689267,
     "goisco_name": "Badia Sea Salt Coarse, 38 oz",
     "goisco_price": 13.67,
@@ -176,6 +198,17 @@
     "saving": 1.88
   },
   {
+    "goisco_id": 4459747737715,
+    "goisco_name": "Nika Parboiled Rice, 20 lbs",
+    "goisco_price": 24.95,
+    "mangusa_id": 44466,
+    "mangusa_name": "Nika Parboiled rice 10 lb",
+    "mangusa_price": 11.96,
+    "score": 0.96,
+    "cheaper": "mangusa",
+    "saving": 12.99
+  },
+  {
     "goisco_id": 7111656571058,
     "goisco_name": "Bazic Pencil & Crayon Sharpener, 4 pcs",
     "goisco_price": 3.99,
@@ -185,6 +218,17 @@
     "score": 0.957,
     "cheaper": "mangusa",
     "saving": 0.24
+  },
+  {
+    "goisco_id": 4255106302067,
+    "goisco_name": "Reynolds Cut Rite Wax Paper, 75 sq ft",
+    "goisco_price": 5.25,
+    "mangusa_id": 29695,
+    "mangusa_name": "Reynolds Cut rite wax paper 75 ft",
+    "mangusa_price": 5.95,
+    "score": 0.957,
+    "cheaper": "goisco",
+    "saving": 0.7
   },
   {
     "goisco_id": 4517566742643,
@@ -231,6 +275,17 @@
     "saving": 5.03
   },
   {
+    "goisco_id": 4159088623731,
+    "goisco_name": "Badia Rotisserie Chicken Seasoning, 22 oz",
+    "goisco_price": 29.46,
+    "mangusa_id": 52983,
+    "mangusa_name": "Badia Rotisserie chicken seasoning 10.5oz",
+    "mangusa_price": 10.0,
+    "score": 0.938,
+    "cheaper": "mangusa",
+    "saving": 19.46
+  },
+  {
     "goisco_id": 4395086970995,
     "goisco_name": "Glacial Alcolado, 250 ml",
     "goisco_price": 7.36,
@@ -273,17 +328,6 @@
     "score": 0.917,
     "cheaper": "goisco",
     "saving": 0.28
-  },
-  {
-    "goisco_id": 7004883058866,
-    "goisco_name": "S. Pellegrino Sparkling Water , 750 ml",
-    "goisco_price": 4.2,
-    "mangusa_id": 32390,
-    "mangusa_name": "Sanpellegrino Sparkling water 500ml",
-    "mangusa_price": 2.35,
-    "score": 0.914,
-    "cheaper": "mangusa",
-    "saving": 1.85
   },
   {
     "goisco_id": 9029220303091,
@@ -385,17 +429,6 @@
     "saving": 6.95
   },
   {
-    "goisco_id": 4365170868339,
-    "goisco_name": "Remia Italian Dressing, 250 ml",
-    "goisco_price": 4.83,
-    "mangusa_id": 31443,
-    "mangusa_name": "Remia Salad italian dressing 250ml",
-    "mangusa_price": 4.75,
-    "score": 0.889,
-    "cheaper": "mangusa",
-    "saving": 0.08
-  },
-  {
     "goisco_id": 4274205491315,
     "goisco_name": "Promos BBQ Sauce Hickory, 18 oz",
     "goisco_price": 5.99,
@@ -416,6 +449,17 @@
     "score": 0.884,
     "cheaper": "goisco",
     "saving": 16.38
+  },
+  {
+    "goisco_id": 4474169426035,
+    "goisco_name": "Toufayan Gluten Free Wraps, Original, 11 oz, 6 ct",
+    "goisco_price": 12.62,
+    "mangusa_id": 49542,
+    "mangusa_name": "Toufayan Gluten free wraps 6pc 11oz (1 piece)",
+    "mangusa_price": 10.95,
+    "score": 0.883,
+    "cheaper": "mangusa",
+    "saving": 1.67
   },
   {
     "goisco_id": 7905687306483,
@@ -504,6 +548,17 @@
     "score": 0.857,
     "cheaper": "goisco",
     "saving": 0.23
+  },
+  {
+    "goisco_id": 9409321533683,
+    "goisco_name": "Goya Distilled White Vinegar – 1 Gallon (128 fl oz)",
+    "goisco_price": 23.15,
+    "mangusa_id": 43983,
+    "mangusa_name": "Goya Distilled white vinegar 128oz",
+    "mangusa_price": 22.0,
+    "score": 0.85,
+    "cheaper": "mangusa",
+    "saving": 1.15
   },
   {
     "goisco_id": 7109952405682,
@@ -632,17 +687,6 @@
     "goisco_price": 4.94,
     "mangusa_id": 49667,
     "mangusa_name": "Chobani Plain non fat greek yogurt 5.3oz",
-    "mangusa_price": 4.0,
-    "score": 0.822,
-    "cheaper": "mangusa",
-    "saving": 0.94
-  },
-  {
-    "goisco_id": 6556801171634,
-    "goisco_name": "Chobani Raspberry Greek Yogurt , 5.3 oz",
-    "goisco_price": 4.94,
-    "mangusa_id": 59208,
-    "mangusa_name": "Chobani Greek raspberry yogurt 5.3oz",
     "mangusa_price": 4.0,
     "score": 0.822,
     "cheaper": "mangusa",
