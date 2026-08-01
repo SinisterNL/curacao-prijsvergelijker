@@ -27,10 +27,10 @@
     "goisco_price": 6.94,
     "mangusa_id": 43180,
     "mangusa_name": "Kikkoman Teriyaki marinade sauce 10oz",
-    "mangusa_price": 7.05,
+    "mangusa_price": 7.35,
     "score": 0.987,
     "cheaper": "goisco",
-    "saving": 0.11
+    "saving": 0.41
   },
   {
     "goisco_id": 9409320354035,
@@ -137,10 +137,10 @@
     "goisco_price": 5.57,
     "mangusa_id": 54897,
     "mangusa_name": "Kikkoman Soy sauce 10oz",
-    "mangusa_price": 6.95,
+    "mangusa_price": 7.35,
     "score": 0.979,
     "cheaper": "goisco",
-    "saving": 1.38
+    "saving": 1.78
   },
   {
     "goisco_id": 4395087396979,
@@ -236,10 +236,10 @@
     "goisco_price": 5.25,
     "mangusa_id": 29695,
     "mangusa_name": "Reynolds Cut rite wax paper 75 ft",
-    "mangusa_price": 5.95,
+    "mangusa_price": 4.95,
     "score": 0.957,
-    "cheaper": "goisco",
-    "saving": 0.7
+    "cheaper": "mangusa",
+    "saving": 0.3
   },
   {
     "goisco_id": 4517566742643,
@@ -803,26 +803,15 @@
     "saving": 3.03
   },
   {
-    "goisco_id": 3280000647268,
-    "goisco_name": "Goisco Dishwashing Liquid, Apple, 28 oz",
-    "goisco_price": 3.57,
-    "mangusa_id": 29577,
-    "mangusa_name": "Tempo Dishwashing liquid apple 12oz",
-    "mangusa_price": 2.1,
-    "score": 0.833,
-    "cheaper": "mangusa",
-    "saving": 1.47
-  },
-  {
     "goisco_id": 8030843633907,
     "goisco_name": "Kikkoman Teriyaki Sauce Takumi Original, 20.5 oz",
     "goisco_price": 11.57,
     "mangusa_id": 43200,
     "mangusa_name": "Kikkoman Teriyaki sauce 5oz",
-    "mangusa_price": 4.25,
+    "mangusa_price": 4.35,
     "score": 0.831,
     "cheaper": "mangusa",
-    "saving": 7.32
+    "saving": 7.22
   },
   {
     "goisco_id": 3281046077540,
@@ -900,16 +889,5 @@
     "score": 0.821,
     "cheaper": "goisco",
     "saving": 3.87
-  },
-  {
-    "goisco_id": 3280009855076,
-    "goisco_name": "Three Stars Matches, 10 ct",
-    "goisco_price": 2.49,
-    "mangusa_id": 32134,
-    "mangusa_name": "Three stars Safety matches 10pc",
-    "mangusa_price": 2.25,
-    "score": 0.821,
-    "cheaper": "mangusa",
-    "saving": 0.24
   }
 ]
