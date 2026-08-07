@@ -539,6 +539,17 @@
     "saving": 7.44
   },
   {
+    "goisco_id": 3280256860260,
+    "goisco_name": "Pik-Nik Original Shoestring Potatoes, 1.75 oz",
+    "goisco_price": 3.15,
+    "mangusa_id": 44925,
+    "mangusa_name": "Pik nik Shoestr pot 1.75 oz",
+    "mangusa_price": 3.65,
+    "score": 0.871,
+    "cheaper": "goisco",
+    "saving": 0.5
+  },
+  {
     "goisco_id": 9407819022579,
     "goisco_name": "Lipton Black Tea Bags , 312 ct",
     "goisco_price": 38.94,
@@ -781,6 +792,28 @@
     "saving": 1.46
   },
   {
+    "goisco_id": 3280161636452,
+    "goisco_name": "Sensodyne Whitening Toothpaste, 4 oz",
+    "goisco_price": 15.78,
+    "mangusa_id": 32106,
+    "mangusa_name": "Sensodyne Toothpaste original 4 oz",
+    "mangusa_price": 12.75,
+    "score": 0.833,
+    "cheaper": "mangusa",
+    "saving": 3.03
+  },
+  {
+    "goisco_id": 3280000647268,
+    "goisco_name": "Goisco Dishwashing Liquid, Apple, 28 oz",
+    "goisco_price": 3.57,
+    "mangusa_id": 29577,
+    "mangusa_name": "Tempo Dishwashing liquid apple 12oz",
+    "mangusa_price": 2.1,
+    "score": 0.833,
+    "cheaper": "mangusa",
+    "saving": 1.47
+  },
+  {
     "goisco_id": 8030843633907,
     "goisco_name": "Kikkoman Teriyaki Sauce Takumi Original, 20.5 oz",
     "goisco_price": 11.57,
@@ -812,6 +845,17 @@
     "score": 0.824,
     "cheaper": "mangusa",
     "saving": 0.46
+  },
+  {
+    "goisco_id": 3280256368740,
+    "goisco_name": "Toufayan Heart Baked Bagels, Cinnamon Raising, 20 oz",
+    "goisco_price": 6.94,
+    "mangusa_id": 49584,
+    "mangusa_name": "Toufayan Bagel cinnamon raisin 20oz",
+    "mangusa_price": 5.45,
+    "score": 0.824,
+    "cheaper": "mangusa",
+    "saving": 1.49
   },
   {
     "goisco_id": 6556801892530,
@@ -856,5 +900,16 @@
     "score": 0.821,
     "cheaper": "goisco",
     "saving": 3.87
+  },
+  {
+    "goisco_id": 3280009855076,
+    "goisco_name": "Three Stars Matches, 10 ct",
+    "goisco_price": 2.49,
+    "mangusa_id": 32134,
+    "mangusa_name": "Three stars Safety matches 10pc",
+    "mangusa_price": 2.25,
+    "score": 0.821,
+    "cheaper": "mangusa",
+    "saving": 0.24
   }
 ]
