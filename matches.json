@@ -242,17 +242,6 @@
     "saving": 0.3
   },
   {
-    "goisco_id": 4517566742643,
-    "goisco_name": "Don Fernando Calamari in American Sauce, 111 gr",
-    "goisco_price": 5.78,
-    "mangusa_id": 42320,
-    "mangusa_name": "Don fernando Calamary in american sauce 111gr",
-    "mangusa_price": 6.5,
-    "score": 0.956,
-    "cheaper": "goisco",
-    "saving": 0.72
-  },
-  {
     "goisco_id": 4458885185651,
     "goisco_name": "Nika White Rice, 10 lbs",
     "goisco_price": 10.97,
@@ -374,17 +363,6 @@
     "saving": 7.07
   },
   {
-    "goisco_id": 4274204901491,
-    "goisco_name": "Promos BBQ Sauce Original, 18 oz",
-    "goisco_price": 5.67,
-    "mangusa_id": 55848,
-    "mangusa_name": "Promos Bbq sauce reg 18 oz",
-    "mangusa_price": 5.95,
-    "score": 0.917,
-    "cheaper": "goisco",
-    "saving": 0.28
-  },
-  {
     "goisco_id": 3280555311204,
     "goisco_name": "Badia Basil Leaves, 4 oz",
     "goisco_price": 6.69,
@@ -438,6 +416,17 @@
     "score": 0.909,
     "cheaper": "mangusa",
     "saving": 1.51
+  },
+  {
+    "goisco_id": 4517566742643,
+    "goisco_name": "Don Fernando Calamari in American Sauce, 111 gr",
+    "goisco_price": 5.78,
+    "mangusa_id": 42322,
+    "mangusa_name": "Don fernando Calamary in american sauce 111gr (1 piece)",
+    "mangusa_price": 6.5,
+    "score": 0.905,
+    "cheaper": "goisco",
+    "saving": 0.72
   },
   {
     "goisco_id": 7862734422259,
@@ -702,17 +691,6 @@
     "score": 0.84,
     "cheaper": "mangusa",
     "saving": 3.19
-  },
-  {
-    "goisco_id": 9027365961971,
-    "goisco_name": "Jif Creamy Peanut Butter, 48 OZ",
-    "goisco_price": 21.04,
-    "mangusa_id": 43209,
-    "mangusa_name": "Teddie Creamy peanut butter 28oz",
-    "mangusa_price": 14.85,
-    "score": 0.839,
-    "cheaper": "mangusa",
-    "saving": 6.19
   },
   {
     "goisco_id": 4409416974451,
