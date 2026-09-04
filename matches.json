@@ -66,15 +66,15 @@
     "saving": 0.37
   },
   {
-    "goisco_id": 4159088722035,
-    "goisco_name": "Badia Steak Seasoning, 1.75 lbs",
-    "goisco_price": 29.46,
-    "mangusa_id": 52879,
-    "mangusa_name": "Badia Steak seasoning 1.75lb",
-    "mangusa_price": 32.1,
+    "goisco_id": 6645971222706,
+    "goisco_name": "Gwaltney Turkey Franks , 16 oz",
+    "goisco_price": 11.57,
+    "mangusa_id": 50623,
+    "mangusa_name": "Gwaltney Turkey franks 16oz",
+    "mangusa_price": 6.95,
     "score": 0.982,
-    "cheaper": "goisco",
-    "saving": 2.64
+    "cheaper": "mangusa",
+    "saving": 4.62
   },
   {
     "goisco_id": 9029220729075,
@@ -130,6 +130,17 @@
     "score": 0.978,
     "cheaper": "mangusa",
     "saving": 0.82
+  },
+  {
+    "goisco_id": 3280980017252,
+    "goisco_name": "Frisian Flag Instant Whole Milk Powder, 1800 gr",
+    "goisco_price": 49.46,
+    "mangusa_id": 30718,
+    "mangusa_name": "Frisian flag Instant whole milk powder 1800gr",
+    "mangusa_price": 47.2,
+    "score": 0.978,
+    "cheaper": "mangusa",
+    "saving": 2.26
   },
   {
     "goisco_id": 4409416843379,
@@ -244,13 +255,13 @@
   {
     "goisco_id": 7105055654066,
     "goisco_name": "Knox Original Gelatine, Unflavored , 1 oz",
-    "goisco_price": 5.57,
+    "goisco_price": 5.67,
     "mangusa_id": 58241,
     "mangusa_name": "Knox Gelatine unflavored 4x1oz",
     "mangusa_price": 5.45,
     "score": 0.949,
     "cheaper": "mangusa",
-    "saving": 0.12
+    "saving": 0.22
   },
   {
     "goisco_id": 9461264679155,
@@ -262,17 +273,6 @@
     "score": 0.947,
     "cheaper": "mangusa",
     "saving": 0.14
-  },
-  {
-    "goisco_id": 4367961849971,
-    "goisco_name": "Johnnie Walker Red Label, 1 L",
-    "goisco_price": 59.99,
-    "mangusa_id": 43587,
-    "mangusa_name": "Johnnie walker Red label 1ltr",
-    "mangusa_price": 60.35,
-    "score": 0.947,
-    "cheaper": "goisco",
-    "saving": 0.36
   },
   {
     "goisco_id": 9214655201523,
@@ -462,17 +462,6 @@
     "saving": 6.95
   },
   {
-    "goisco_id": 4274205491315,
-    "goisco_name": "Promos BBQ Sauce Hickory, 18 oz",
-    "goisco_price": 5.99,
-    "mangusa_id": 55860,
-    "mangusa_name": "Promos Bbq hickory 18 oz",
-    "mangusa_price": 3.95,
-    "score": 0.889,
-    "cheaper": "mangusa",
-    "saving": 2.04
-  },
-  {
     "goisco_id": 4458897899635,
     "goisco_name": "Nika White Rice, 4.4 lbs",
     "goisco_price": 5.59,
@@ -482,17 +471,6 @@
     "score": 0.884,
     "cheaper": "goisco",
     "saving": 16.38
-  },
-  {
-    "goisco_id": 4474169426035,
-    "goisco_name": "Toufayan Gluten Free Wraps, Original, 11 oz, 6 ct",
-    "goisco_price": 12.62,
-    "mangusa_id": 49542,
-    "mangusa_name": "Toufayan Gluten free wraps 6pc 11oz (1 piece)",
-    "mangusa_price": 10.95,
-    "score": 0.883,
-    "cheaper": "mangusa",
-    "saving": 1.67
   },
   {
     "goisco_id": 7905687306483,
@@ -559,6 +537,17 @@
     "score": 0.866,
     "cheaper": "goisco",
     "saving": 0.22
+  },
+  {
+    "goisco_id": 3281035821156,
+    "goisco_name": "India Crown Premium Basmati Rice, 1 kg",
+    "goisco_price": 5.99,
+    "mangusa_id": 42312,
+    "mangusa_name": "India crown Basmati rice classic 1kg",
+    "mangusa_price": 5.95,
+    "score": 0.862,
+    "cheaper": "mangusa",
+    "saving": 0.04
   },
   {
     "goisco_id": 3279891300452,
@@ -735,6 +724,17 @@
     "score": 0.831,
     "cheaper": "mangusa",
     "saving": 7.22
+  },
+  {
+    "goisco_id": 3281046077540,
+    "goisco_name": "Bazic Dry-Erase Whiteboard Markers, 3 ct",
+    "goisco_price": 4.99,
+    "mangusa_id": 60922,
+    "mangusa_name": "Bazic Dry erase whiteboard marker fine point 3pc",
+    "mangusa_price": 3.15,
+    "score": 0.828,
+    "cheaper": "mangusa",
+    "saving": 1.84
   },
   {
     "goisco_id": 7106985361586,
