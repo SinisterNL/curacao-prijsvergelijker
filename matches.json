@@ -55,6 +55,17 @@
     "saving": 1.44
   },
   {
+    "goisco_id": 3280034627684,
+    "goisco_name": "Tilex Daily Shower Cleaner, 32 oz",
+    "goisco_price": 13.67,
+    "mangusa_id": 68091,
+    "mangusa_name": "Tilex Daily shower cleaner 32oz",
+    "mangusa_price": 9.55,
+    "score": 0.984,
+    "cheaper": "mangusa",
+    "saving": 4.12
+  },
+  {
     "goisco_id": 7120068903090,
     "goisco_name": "Tip Top Azijn Essence , 250 ml",
     "goisco_price": 5.57,
@@ -176,17 +187,6 @@
     "saving": 2.66
   },
   {
-    "goisco_id": 7772135915763,
-    "goisco_name": "Badia Cinnamon Sticks , 8 oz",
-    "goisco_price": 25.25,
-    "mangusa_id": 53064,
-    "mangusa_name": "Badia Cinnamon sticks 3 oz",
-    "mangusa_price": 18.95,
-    "score": 0.962,
-    "cheaper": "mangusa",
-    "saving": 6.3
-  },
-  {
     "goisco_id": 4159088689267,
     "goisco_name": "Badia Sea Salt Coarse, 38 oz",
     "goisco_price": 13.67,
@@ -286,17 +286,6 @@
     "saving": 5.03
   },
   {
-    "goisco_id": 4159088459891,
-    "goisco_name": "Badia Ground Oregano, 12 oz",
-    "goisco_price": 15.78,
-    "mangusa_id": 33775,
-    "mangusa_name": "Badia Ground oregano 1.50oz",
-    "mangusa_price": 4.5,
-    "score": 0.943,
-    "cheaper": "mangusa",
-    "saving": 11.28
-  },
-  {
     "goisco_id": 4159088623731,
     "goisco_name": "Badia Rotisserie Chicken Seasoning, 22 oz",
     "goisco_price": 29.46,
@@ -317,6 +306,17 @@
     "score": 0.933,
     "cheaper": "goisco",
     "saving": 4.44
+  },
+  {
+    "goisco_id": 3280554295396,
+    "goisco_name": "Badia Whole Black Pepper, 16 oz",
+    "goisco_price": 33.67,
+    "mangusa_id": 52696,
+    "mangusa_name": "Badia Whole black pepper 2oz",
+    "mangusa_price": 6.9,
+    "score": 0.931,
+    "cheaper": "mangusa",
+    "saving": 26.77
   },
   {
     "goisco_id": 6630166954162,
@@ -341,15 +341,37 @@
     "saving": 0.28
   },
   {
-    "goisco_id": 4274204901491,
-    "goisco_name": "Promos BBQ Sauce Original, 18 oz",
-    "goisco_price": 5.67,
-    "mangusa_id": 55848,
-    "mangusa_name": "Promos Bbq sauce reg 18 oz",
+    "goisco_id": 3280560881764,
+    "goisco_name": "Badia Rosemary, 8 oz",
+    "goisco_price": 11.57,
+    "mangusa_id": 52863,
+    "mangusa_name": "Badia Rosemary 1oz",
+    "mangusa_price": 4.5,
+    "score": 0.919,
+    "cheaper": "mangusa",
+    "saving": 7.07
+  },
+  {
+    "goisco_id": 3280555311204,
+    "goisco_name": "Badia Basil Leaves, 4 oz",
+    "goisco_price": 6.69,
+    "mangusa_id": 52588,
+    "mangusa_name": "Badia Basil leaves 0.75oz",
     "mangusa_price": 5.95,
     "score": 0.917,
+    "cheaper": "mangusa",
+    "saving": 0.74
+  },
+  {
+    "goisco_id": 3280820502628,
+    "goisco_name": "Lysol Disinfectant Spray, Crisp Linen Scent, 12.5 oz",
+    "goisco_price": 18.94,
+    "mangusa_id": 60641,
+    "mangusa_name": "Lysol Disinfectante spray crisp linen 12.5oz",
+    "mangusa_price": 18.95,
+    "score": 0.915,
     "cheaper": "goisco",
-    "saving": 0.28
+    "saving": 0.01
   },
   {
     "goisco_id": 7004883058866,
@@ -361,6 +383,28 @@
     "score": 0.914,
     "cheaper": "mangusa",
     "saving": 1.85
+  },
+  {
+    "goisco_id": 9029220303091,
+    "goisco_name": "Badia Minced Onion, 17 OZ",
+    "goisco_price": 18.94,
+    "mangusa_id": 52675,
+    "mangusa_name": "Badia Minced onion 4oz",
+    "mangusa_price": 4.85,
+    "score": 0.913,
+    "cheaper": "mangusa",
+    "saving": 14.09
+  },
+  {
+    "goisco_id": 3280557178980,
+    "goisco_name": "Badia Ground Cumin, 16 oz",
+    "goisco_price": 23.15,
+    "mangusa_id": 52954,
+    "mangusa_name": "Badia Ground cumin 7oz",
+    "mangusa_price": 7.95,
+    "score": 0.913,
+    "cheaper": "mangusa",
+    "saving": 15.2
   },
   {
     "goisco_id": 7120069001394,
@@ -484,6 +528,17 @@
     "saving": 7.29
   },
   {
+    "goisco_id": 3280256860260,
+    "goisco_name": "Pik-Nik Original Shoestring Potatoes, 1.75 oz",
+    "goisco_price": 3.15,
+    "mangusa_id": 44925,
+    "mangusa_name": "Pik nik Shoestr pot 1.75 oz",
+    "mangusa_price": 3.65,
+    "score": 0.871,
+    "cheaper": "goisco",
+    "saving": 0.5
+  },
+  {
     "goisco_id": 9407819022579,
     "goisco_name": "Lipton Black Tea Bags , 312 ct",
     "goisco_price": 38.94,
@@ -506,6 +561,17 @@
     "saving": 0.97
   },
   {
+    "goisco_id": 4518316736627,
+    "goisco_name": "Carlo Rossi White Wine, 1.5L",
+    "goisco_price": 27.36,
+    "mangusa_id": 39056,
+    "mangusa_name": "Carlo rossi White zinfandel 1.5  ltr",
+    "mangusa_price": 32.25,
+    "score": 0.867,
+    "cheaper": "goisco",
+    "saving": 4.89
+  },
+  {
     "goisco_id": 3281401938020,
     "goisco_name": "Sensodyne Repair and Protect, 100 gr",
     "goisco_price": 18.94,
@@ -517,17 +583,6 @@
     "saving": 1.59
   },
   {
-    "goisco_id": 7779181592819,
-    "goisco_name": "La Yogurt Low Fat Vanilla Yogurt , 32 oz",
-    "goisco_price": 7.99,
-    "mangusa_id": 58934,
-    "mangusa_name": "La yogurt Low fat yogurt 32oz",
-    "mangusa_price": 7.5,
-    "score": 0.866,
-    "cheaper": "mangusa",
-    "saving": 0.49
-  },
-  {
     "goisco_id": 4417512865907,
     "goisco_name": "Bolthouse Farms Berry Boost Fruit Juice Smoothie, 450 ml",
     "goisco_price": 7.67,
@@ -537,6 +592,17 @@
     "score": 0.866,
     "cheaper": "goisco",
     "saving": 0.22
+  },
+  {
+    "goisco_id": 3280285401188,
+    "goisco_name": "Black & White Blended Scotch Wiskey, 40% Vol., 750 ml",
+    "goisco_price": 42.09,
+    "mangusa_id": 43623,
+    "mangusa_name": "Black y white Blended scotch whisky 750ml",
+    "mangusa_price": 41.25,
+    "score": 0.864,
+    "cheaper": "mangusa",
+    "saving": 0.84
   },
   {
     "goisco_id": 3281035821156,
@@ -594,6 +660,50 @@
     "saving": 0.23
   },
   {
+    "goisco_id": 3280759980132,
+    "goisco_name": "Colgate Extra Clean Toothbrush Value Pack, 3 ct",
+    "goisco_price": 7.99,
+    "mangusa_id": 62594,
+    "mangusa_name": "Colgate Extra clean toothbrush soft 1pc",
+    "mangusa_price": 4.25,
+    "score": 0.857,
+    "cheaper": "mangusa",
+    "saving": 3.74
+  },
+  {
+    "goisco_id": 3280558489700,
+    "goisco_name": "Badia Adobo With Pepper, 2 lbs",
+    "goisco_price": 21.04,
+    "mangusa_id": 53169,
+    "mangusa_name": "Badia Adobo with pepper 12.75oz",
+    "mangusa_price": 9.65,
+    "score": 0.857,
+    "cheaper": "mangusa",
+    "saving": 11.39
+  },
+  {
+    "goisco_id": 3280558588004,
+    "goisco_name": "Badia Ground Ginger, 12 oz",
+    "goisco_price": 18.94,
+    "mangusa_id": 33724,
+    "mangusa_name": "Badia Badia ground ginger 2oz",
+    "mangusa_price": 4.5,
+    "score": 0.852,
+    "cheaper": "mangusa",
+    "saving": 14.44
+  },
+  {
+    "goisco_id": 3280555147364,
+    "goisco_name": "Badia Bay Leaves, 20 oz",
+    "goisco_price": 13.15,
+    "mangusa_id": 52588,
+    "mangusa_name": "Badia Basil leaves 0.75oz",
+    "mangusa_price": 5.95,
+    "score": 0.851,
+    "cheaper": "mangusa",
+    "saving": 7.2
+  },
+  {
     "goisco_id": 9409321533683,
     "goisco_name": "Goya Distilled White Vinegar – 1 Gallon (128 fl oz)",
     "goisco_price": 23.15,
@@ -603,6 +713,17 @@
     "score": 0.85,
     "cheaper": "mangusa",
     "saving": 0.25
+  },
+  {
+    "goisco_id": 3280554164324,
+    "goisco_name": "Badia Fine Black Pepper, 16 oz",
+    "goisco_price": 33.67,
+    "mangusa_id": 53213,
+    "mangusa_name": "Badia Ground black pepper 16oz",
+    "mangusa_price": 39.75,
+    "score": 0.847,
+    "cheaper": "goisco",
+    "saving": 6.08
   },
   {
     "goisco_id": 7549204234483,
@@ -671,6 +792,17 @@
     "saving": 4.47
   },
   {
+    "goisco_id": 3280559210596,
+    "goisco_name": "Badia Sazon Tropical W/Annato and Coriander, 1.75 lb",
+    "goisco_price": 27.36,
+    "mangusa_id": 52905,
+    "mangusa_name": "Badia Sazon tropical w coriander and annato 1.75lb",
+    "mangusa_price": 30.1,
+    "score": 0.839,
+    "cheaper": "goisco",
+    "saving": 2.74
+  },
+  {
     "goisco_id": 7511788880115,
     "goisco_name": "Monster Ultra Energy Zero Sugar Drink , 16 oz",
     "goisco_price": 3.99,
@@ -680,6 +812,17 @@
     "score": 0.838,
     "cheaper": "mangusa",
     "saving": 0.29
+  },
+  {
+    "goisco_id": 3280520740964,
+    "goisco_name": "Land O Lakes Unsalted Sweet Butter, 4 Half Sticks",
+    "goisco_price": 8.94,
+    "mangusa_id": 49356,
+    "mangusa_name": "Land o lakes Unsalted sweet butter 1lb",
+    "mangusa_price": 12.95,
+    "score": 0.837,
+    "cheaper": "goisco",
+    "saving": 4.01
   },
   {
     "goisco_id": 6647947100338,
@@ -715,6 +858,28 @@
     "saving": 42.07
   },
   {
+    "goisco_id": 3280743923812,
+    "goisco_name": "Abbott Ensure Plus Nutrition Shake, Milk Chocolate, 8 oz",
+    "goisco_price": 5.99,
+    "mangusa_id": 37348,
+    "mangusa_name": "Ensure Nutrition shake milk chocolate 11oz",
+    "mangusa_price": 7.45,
+    "score": 0.833,
+    "cheaper": "goisco",
+    "saving": 1.46
+  },
+  {
+    "goisco_id": 3280000647268,
+    "goisco_name": "Goisco Dishwashing Liquid, Apple, 28 oz",
+    "goisco_price": 3.57,
+    "mangusa_id": 29577,
+    "mangusa_name": "Tempo Dishwashing liquid apple 12oz",
+    "mangusa_price": 2.1,
+    "score": 0.833,
+    "cheaper": "mangusa",
+    "saving": 1.47
+  },
+  {
     "goisco_id": 8030843633907,
     "goisco_name": "Kikkoman Teriyaki Sauce Takumi Original, 20.5 oz",
     "goisco_price": 11.57,
@@ -724,6 +889,17 @@
     "score": 0.831,
     "cheaper": "mangusa",
     "saving": 7.22
+  },
+  {
+    "goisco_id": 3280322920548,
+    "goisco_name": "AriZona Iced Tea with Raspberry Flavor, 100% Natural, 11.5 oz",
+    "goisco_price": 1.57,
+    "mangusa_id": 32094,
+    "mangusa_name": "Arizona Ice tea raspberry 11.5oz",
+    "mangusa_price": 1.85,
+    "score": 0.831,
+    "cheaper": "goisco",
+    "saving": 0.28
   },
   {
     "goisco_id": 3281046077540,
@@ -737,17 +913,6 @@
     "saving": 1.84
   },
   {
-    "goisco_id": 7106985361586,
-    "goisco_name": "Bazic Permanent Colored Markers, 3 pcs",
-    "goisco_price": 4.99,
-    "mangusa_id": 69167,
-    "mangusa_name": "Bazic Permanent markers 5pc",
-    "mangusa_price": 2.95,
-    "score": 0.825,
-    "cheaper": "mangusa",
-    "saving": 2.04
-  },
-  {
     "goisco_id": 6887020986546,
     "goisco_name": "Coca-Cola Bottle, Cur, 2 L",
     "goisco_price": 7.36,
@@ -757,6 +922,17 @@
     "score": 0.824,
     "cheaper": "mangusa",
     "saving": 0.46
+  },
+  {
+    "goisco_id": 3280256368740,
+    "goisco_name": "Toufayan Heart Baked Bagels, Cinnamon Raising, 20 oz",
+    "goisco_price": 6.94,
+    "mangusa_id": 49584,
+    "mangusa_name": "Toufayan Bagel cinnamon raisin 20oz",
+    "mangusa_price": 5.45,
+    "score": 0.824,
+    "cheaper": "mangusa",
+    "saving": 1.49
   },
   {
     "goisco_id": 9027366289651,
@@ -790,5 +966,16 @@
     "score": 0.821,
     "cheaper": "goisco",
     "saving": 3.87
+  },
+  {
+    "goisco_id": 3280009855076,
+    "goisco_name": "Three Stars Matches, 10 ct",
+    "goisco_price": 2.49,
+    "mangusa_id": 32134,
+    "mangusa_name": "Three stars Safety matches 10pc",
+    "mangusa_price": 2.6,
+    "score": 0.821,
+    "cheaper": "goisco",
+    "saving": 0.11
   }
 ]
