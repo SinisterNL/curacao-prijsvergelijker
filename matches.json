@@ -66,17 +66,6 @@
     "saving": 1.44
   },
   {
-    "goisco_id": 4253414654067,
-    "goisco_name": "Arm & Hammer Pure Baking Soda, 16 oz",
-    "goisco_price": 3.36,
-    "mangusa_id": 59071,
-    "mangusa_name": "Arm hammer Pure baking soda 16oz",
-    "mangusa_price": 3.45,
-    "score": 0.985,
-    "cheaper": "goisco",
-    "saving": 0.09
-  },
-  {
     "goisco_id": 6647946674354,
     "goisco_name": "Badia Chocolate Sprinkles , 1.5 lbs",
     "goisco_price": 24.2,
@@ -253,17 +242,6 @@
     "saving": 1.88
   },
   {
-    "goisco_id": 4459747737715,
-    "goisco_name": "Nika Parboiled Rice, 20 lbs",
-    "goisco_price": 24.95,
-    "mangusa_id": 44466,
-    "mangusa_name": "Nika Parboiled rice 10 lb",
-    "mangusa_price": 11.96,
-    "score": 0.96,
-    "cheaper": "mangusa",
-    "saving": 12.99
-  },
-  {
     "goisco_id": 7111656571058,
     "goisco_name": "Bazic Pencil & Crayon Sharpener, 4 pcs",
     "goisco_price": 3.99,
@@ -328,6 +306,17 @@
     "score": 0.947,
     "cheaper": "mangusa",
     "saving": 0.14
+  },
+  {
+    "goisco_id": 4367961849971,
+    "goisco_name": "Johnnie Walker Red Label, 1 L",
+    "goisco_price": 59.99,
+    "mangusa_id": 43587,
+    "mangusa_name": "Johnnie walker Red label 1ltr",
+    "mangusa_price": 60.35,
+    "score": 0.947,
+    "cheaper": "goisco",
+    "saving": 0.36
   },
   {
     "goisco_id": 9214655201523,
@@ -528,17 +517,6 @@
     "saving": 1.51
   },
   {
-    "goisco_id": 7100036219058,
-    "goisco_name": "Bazic Stapler With 500 Staples , 1 pc",
-    "goisco_price": 6.94,
-    "mangusa_id": 66078,
-    "mangusa_name": "Bazic Stapler with staples 1pc",
-    "mangusa_price": 5.95,
-    "score": 0.909,
-    "cheaper": "mangusa",
-    "saving": 0.99
-  },
-  {
     "goisco_id": 7862734422259,
     "goisco_name": "Planters Mixed Nutes , 15 oz",
     "goisco_price": 22.09,
@@ -627,6 +605,17 @@
     "saving": 2.04
   },
   {
+    "goisco_id": 3279753019492,
+    "goisco_name": "Campbell's Cream of Mushroom, 10.5 oz",
+    "goisco_price": 3.99,
+    "mangusa_id": 49360,
+    "mangusa_name": "Campbells Cream of mushroom soup 10.50oz",
+    "mangusa_price": 4.1,
+    "score": 0.886,
+    "cheaper": "goisco",
+    "saving": 0.11
+  },
+  {
     "goisco_id": 4458897899635,
     "goisco_name": "Nika White Rice, 4.4 lbs",
     "goisco_price": 5.59,
@@ -636,17 +625,6 @@
     "score": 0.884,
     "cheaper": "goisco",
     "saving": 16.38
-  },
-  {
-    "goisco_id": 4474169426035,
-    "goisco_name": "Toufayan Gluten Free Wraps, Original, 11 oz, 6 ct",
-    "goisco_price": 12.62,
-    "mangusa_id": 49542,
-    "mangusa_name": "Toufayan Gluten free wraps 6pc 11oz (1 piece)",
-    "mangusa_price": 10.95,
-    "score": 0.883,
-    "cheaper": "mangusa",
-    "saving": 1.67
   },
   {
     "goisco_id": 7905687306483,
@@ -724,17 +702,6 @@
     "score": 0.866,
     "cheaper": "mangusa",
     "saving": 0.49
-  },
-  {
-    "goisco_id": 4417512865907,
-    "goisco_name": "Bolthouse Farms Berry Boost Fruit Juice Smoothie, 450 ml",
-    "goisco_price": 7.67,
-    "mangusa_id": 49416,
-    "mangusa_name": "Bolthouse Berry boost juice smoothie 450ml",
-    "mangusa_price": 7.89,
-    "score": 0.866,
-    "cheaper": "goisco",
-    "saving": 0.22
   },
   {
     "goisco_id": 3280285401188,
@@ -834,17 +801,6 @@
     "score": 0.851,
     "cheaper": "mangusa",
     "saving": 7.2
-  },
-  {
-    "goisco_id": 9409321533683,
-    "goisco_name": "Goya Distilled White Vinegar – 1 Gallon (128 fl oz)",
-    "goisco_price": 23.15,
-    "mangusa_id": 43983,
-    "mangusa_name": "Goya Distilled white vinegar 128oz",
-    "mangusa_price": 22.9,
-    "score": 0.85,
-    "cheaper": "mangusa",
-    "saving": 0.25
   },
   {
     "goisco_id": 3279793356900,
@@ -962,10 +918,10 @@
     "goisco_price": 8.94,
     "mangusa_id": 49356,
     "mangusa_name": "Land o lakes Unsalted sweet butter 1lb",
-    "mangusa_price": 12.95,
+    "mangusa_price": 15.75,
     "score": 0.837,
     "cheaper": "goisco",
-    "saving": 4.01
+    "saving": 6.81
   },
   {
     "goisco_id": 3279731884132,
@@ -1017,10 +973,10 @@
     "goisco_price": 3.57,
     "mangusa_id": 29577,
     "mangusa_name": "Tempo Dishwashing liquid apple 12oz",
-    "mangusa_price": 2.1,
+    "mangusa_price": 2.15,
     "score": 0.833,
     "cheaper": "mangusa",
-    "saving": 1.47
+    "saving": 1.42
   },
   {
     "goisco_id": 8030843633907,
