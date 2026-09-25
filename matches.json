@@ -115,10 +115,10 @@
     "goisco_price": 26.31,
     "mangusa_id": 53177,
     "mangusa_name": "Badia Garlic parsley 24oz",
-    "mangusa_price": 26.95,
+    "mangusa_price": 29.45,
     "score": 0.98,
     "cheaper": "goisco",
-    "saving": 0.64
+    "saving": 3.14
   },
   {
     "goisco_id": 6188969590962,
@@ -152,6 +152,17 @@
     "score": 0.979,
     "cheaper": "goisco",
     "saving": 1.78
+  },
+  {
+    "goisco_id": 3280572416100,
+    "goisco_name": "Ponche Kuba Cream, 700 ml",
+    "goisco_price": 23.15,
+    "mangusa_id": 44287,
+    "mangusa_name": "Ponche kuba Cream 700ml",
+    "mangusa_price": 25.85,
+    "score": 0.979,
+    "cheaper": "goisco",
+    "saving": 2.7
   },
   {
     "goisco_id": 4395087396979,
@@ -209,6 +220,17 @@
     "saving": 3.34
   },
   {
+    "goisco_id": 7864654856435,
+    "goisco_name": "Gato Negro Chardonnay Wine , 750 ml",
+    "goisco_price": 12.62,
+    "mangusa_id": 38173,
+    "mangusa_name": "Gato negro Chardonay wine 750ml",
+    "mangusa_price": 20.5,
+    "score": 0.969,
+    "cheaper": "goisco",
+    "saving": 7.88
+  },
+  {
     "goisco_id": 4308738244723,
     "goisco_name": "Tuff Stuff Multi-Purpose Foam Cleaner, 22 oz",
     "goisco_price": 13.99,
@@ -225,10 +247,10 @@
     "goisco_price": 2.39,
     "mangusa_id": 32719,
     "mangusa_name": "Coast Evaporated milk 410gr",
-    "mangusa_price": 1.89,
+    "mangusa_price": 2.39,
     "score": 0.963,
-    "cheaper": "mangusa",
-    "saving": 0.5
+    "cheaper": "equal",
+    "saving": 0.0
   },
   {
     "goisco_id": 7772135915763,
@@ -695,13 +717,13 @@
   {
     "goisco_id": 3279891300452,
     "goisco_name": "Goisco Dishwashing Liquid, Lemon, 28 oz",
-    "goisco_price": 3.57,
+    "goisco_price": 3.88,
     "mangusa_id": 29877,
     "mangusa_name": "Tempo Dishwashing liquid lemon 28oz",
     "mangusa_price": 4.4,
     "score": 0.861,
     "cheaper": "goisco",
-    "saving": 0.83
+    "saving": 0.52
   },
   {
     "goisco_id": 9029220204787,
@@ -746,17 +768,6 @@
     "score": 0.857,
     "cheaper": "mangusa",
     "saving": 3.74
-  },
-  {
-    "goisco_id": 3280558489700,
-    "goisco_name": "Badia Adobo With Pepper, 2 lbs",
-    "goisco_price": 21.04,
-    "mangusa_id": 53169,
-    "mangusa_name": "Badia Adobo with pepper 12.75oz",
-    "mangusa_price": 9.65,
-    "score": 0.857,
-    "cheaper": "mangusa",
-    "saving": 11.39
   },
   {
     "goisco_id": 3280558588004,
@@ -913,17 +924,6 @@
     "saving": 0.29
   },
   {
-    "goisco_id": 3280520740964,
-    "goisco_name": "Land O Lakes Unsalted Sweet Butter, 4 Half Sticks",
-    "goisco_price": 8.94,
-    "mangusa_id": 49356,
-    "mangusa_name": "Land o lakes Unsalted sweet butter 1lb",
-    "mangusa_price": 15.75,
-    "score": 0.837,
-    "cheaper": "goisco",
-    "saving": 6.81
-  },
-  {
     "goisco_id": 3279731884132,
     "goisco_name": "Goisco Spaghetti, 500 gr",
     "goisco_price": 1.78,
@@ -970,13 +970,13 @@
   {
     "goisco_id": 3280000647268,
     "goisco_name": "Goisco Dishwashing Liquid, Apple, 28 oz",
-    "goisco_price": 3.57,
+    "goisco_price": 3.88,
     "mangusa_id": 29577,
     "mangusa_name": "Tempo Dishwashing liquid apple 12oz",
     "mangusa_price": 2.15,
     "score": 0.833,
     "cheaper": "mangusa",
-    "saving": 1.42
+    "saving": 1.73
   },
   {
     "goisco_id": 8030843633907,
@@ -1010,6 +1010,17 @@
     "score": 0.828,
     "cheaper": "mangusa",
     "saving": 1.84
+  },
+  {
+    "goisco_id": 7106985361586,
+    "goisco_name": "Bazic Permanent Colored Markers, 3 pcs",
+    "goisco_price": 4.99,
+    "mangusa_id": 69167,
+    "mangusa_name": "Bazic Permanent markers 5pc",
+    "mangusa_price": 2.95,
+    "score": 0.825,
+    "cheaper": "mangusa",
+    "saving": 2.04
   },
   {
     "goisco_id": 6887020986546,
