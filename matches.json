@@ -99,6 +99,17 @@
     "saving": 0.37
   },
   {
+    "goisco_id": 6645971222706,
+    "goisco_name": "Gwaltney Turkey Franks , 16 oz",
+    "goisco_price": 11.57,
+    "mangusa_id": 50623,
+    "mangusa_name": "Gwaltney Turkey franks 16oz",
+    "mangusa_price": 6.95,
+    "score": 0.982,
+    "cheaper": "mangusa",
+    "saving": 4.62
+  },
+  {
     "goisco_id": 9029220729075,
     "goisco_name": "Badia Cinnamon Sugar, 29 OZ",
     "goisco_price": 17.88,
@@ -130,17 +141,6 @@
     "score": 0.98,
     "cheaper": "mangusa",
     "saving": 0.07
-  },
-  {
-    "goisco_id": 3280557441124,
-    "goisco_name": "Badia Minced Garlic, 1.5 lbs",
-    "goisco_price": 27.36,
-    "mangusa_id": 53088,
-    "mangusa_name": "Badia Minced garlic 1.5lb",
-    "mangusa_price": 31.0,
-    "score": 0.98,
-    "cheaper": "goisco",
-    "saving": 3.64
   },
   {
     "goisco_id": 7572515029235,
@@ -451,6 +451,17 @@
     "saving": 0.28
   },
   {
+    "goisco_id": 3280560881764,
+    "goisco_name": "Badia Rosemary, 8 oz",
+    "goisco_price": 11.57,
+    "mangusa_id": 52863,
+    "mangusa_name": "Badia Rosemary 1oz",
+    "mangusa_price": 4.5,
+    "score": 0.919,
+    "cheaper": "mangusa",
+    "saving": 7.07
+  },
+  {
     "goisco_id": 3280554393700,
     "goisco_name": "Badia Crushed Red Pepper, 12 oz",
     "goisco_price": 16.83,
@@ -592,6 +603,17 @@
     "score": 0.894,
     "cheaper": "mangusa",
     "saving": 14.8
+  },
+  {
+    "goisco_id": 4274205491315,
+    "goisco_name": "Promos BBQ Sauce Hickory, 18 oz",
+    "goisco_price": 5.99,
+    "mangusa_id": 55860,
+    "mangusa_name": "Promos Bbq hickory 18 oz",
+    "mangusa_price": 3.95,
+    "score": 0.889,
+    "cheaper": "mangusa",
+    "saving": 2.04
   },
   {
     "goisco_id": 3279753019492,
@@ -957,17 +979,6 @@
     "saving": 42.07
   },
   {
-    "goisco_id": 3280743923812,
-    "goisco_name": "Abbott Ensure Plus Nutrition Shake, Milk Chocolate, 8 oz",
-    "goisco_price": 5.99,
-    "mangusa_id": 37348,
-    "mangusa_name": "Ensure Nutrition shake milk chocolate 11oz",
-    "mangusa_price": 7.45,
-    "score": 0.833,
-    "cheaper": "goisco",
-    "saving": 1.46
-  },
-  {
     "goisco_id": 3280000647268,
     "goisco_name": "Goisco Dishwashing Liquid, Apple, 28 oz",
     "goisco_price": 3.88,
@@ -999,6 +1010,17 @@
     "score": 0.831,
     "cheaper": "goisco",
     "saving": 0.28
+  },
+  {
+    "goisco_id": 9029220630771,
+    "goisco_name": "Badia Italian Seasoning, 5 OZ",
+    "goisco_price": 9.46,
+    "mangusa_id": 52841,
+    "mangusa_name": "Badia Fajita seasoning 2.75 oz",
+    "mangusa_price": 5.3,
+    "score": 0.828,
+    "cheaper": "mangusa",
+    "saving": 4.16
   },
   {
     "goisco_id": 3281046077540,
