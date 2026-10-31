@@ -434,10 +434,10 @@
     "goisco_price": 3.99,
     "mangusa_id": 63204,
     "mangusa_name": "Colgate Triple action toothpaste 100ml",
-    "mangusa_price": 3.95,
+    "mangusa_price": 4.55,
     "score": 0.921,
-    "cheaper": "mangusa",
-    "saving": 0.04
+    "cheaper": "goisco",
+    "saving": 0.56
   },
   {
     "goisco_id": 6138607927474,
